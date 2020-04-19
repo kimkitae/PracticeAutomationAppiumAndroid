@@ -11,12 +11,15 @@ APPIUM을 이용하 Android 자동화 기초 연습 입니다.
 
 
 [참고 페이지](https://brew.sh/index_ko)
-
+<br/>
 
 
 **2. Brew를 통해 node 설치**
 터미너 실행 후 아래의 명령어 입력
 > brew install node
+
+<br/>
+
 
 
 **3. Android Studio 설치**
@@ -26,11 +29,14 @@ SDK platform(API Level 23 이상 임의 1개 선택),
 SDK Tool(Android SDK Build, Android SDK Command-line Toold, Android Emulator, Android SDK platform-Tools) 설치. 
 #Android SDK Location 내 경로 기억하기(환경변수 설정 시 필요). 
 
+<br/>
+
 
 **4. brew를 통해 appium 설치**
 터미널 실해 후 아래의 명령어 입력
 > brew install appium
 
+<br/>
 
 
 **5. brew를 통해 OpenJDK 설치**
@@ -49,11 +55,17 @@ SDK Tool(Android SDK Build, Android SDK Command-line Toold, Android Emulator, An
 
 
 
+<br/>
+
+
 **6. MAVEN 다운로드**
 
 [다운로드](https://maven.apache.org/download.cgi)
 
 위 URL 접속 후 Files 아래의 Binary zip archive이 LINK를 클릭하여 다운로드 및 압축 해제
+
+
+<br/>
 
 
 **7. 환경변수 설정하기**
