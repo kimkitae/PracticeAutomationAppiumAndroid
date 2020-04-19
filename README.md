@@ -83,3 +83,8 @@ export PATH=${PATH}:$MAVEN/bin
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 export PATH=${PATH}:$JAVA_HOME/bin
 ```
+
+
+
+**8. SourceTree를 통해 Source 내려 받기**  
+URL에서 복제를 통해 소스를 내려 받습니다.
