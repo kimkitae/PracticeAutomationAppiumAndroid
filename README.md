@@ -20,9 +20,9 @@ APPIUM을 이용하 Android 자동화 기초 연습 입니다.
 **3. Android Studio 설치**
 [다운로드](https://developer.android.com/studio)
 설치 후 SDK Manger 실행 하여 
-SDK platform(API Level 23 이상 임의 1개 선택), 
-SDK Tool(Android SDK Build, Android SDK Command-line Toold, Android Emulator, Android SDK platform-Tools) 설치
-#Android SDK Location 내 경로 기억하기(환경변수 설정 시 필요)
+SDK platform(API Level 23 이상 임의 1개 선택),  
+SDK Tool(Android SDK Build, Android SDK Command-line Toold, Android Emulator, Android SDK platform-Tools) 설치. 
+#Android SDK Location 내 경로 기억하기(환경변수 설정 시 필요). 
 
 **4. brew를 통해 appium 설치**
 터미널 실해 후 아래의 명령어 입력
@@ -49,7 +49,7 @@ SDK Tool(Android SDK Build, Android SDK Command-line Toold, Android Emulator, An
 
 위 URL 접속 후 Files 아래의 Binary zip archive이 LINK를 클릭하여 다운로드 및 압축 해제
 
-**7. 환경변수 설정하기
+**7. 환경변수 설정하기**
 
 [참고페이지](https://whitepaek.tistory.com/28)
 
