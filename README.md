@@ -56,10 +56,11 @@ SDK Tool(Android SDK Build, Android SDK Command-line Toold, Android Emulator, An
 우 페이지 참고하여 Android, Maven, openJDK 도 동일하게 설정
 
 ex)
-
->export MAVEN=/Users/kimkitae/Documents/maven
->export ANDROID_HOME=/Users/kimkitae/Library/Android/sdk
->export PATH=${PATH}:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin
->export PATH=${PATH}:$MAVEN/bin
->export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
->export PATH=${PATH}:$JAVA_HOME/bin
+'''
+export MAVEN=/Users/kimkitae/Documents/maven
+export ANDROID_HOME=/Users/kimkitae/Library/Android/sdk
+export PATH=${PATH}:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin
+export PATH=${PATH}:$MAVEN/bin
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+export PATH=${PATH}:$JAVA_HOME/bin
+'''
