@@ -3,7 +3,7 @@ Practicing Appium with Android for Automation
 APPIUM을 이용하 Android 자동화 기초 연습 입니다.
 현재 Mac 기준으로 작성되었습니다.
 
-###### 연습에 들어가기 전 아래의 선행작업이 완료되어야 합니다.
+# 연습에 들어가기 전 아래의 선행작업이 완료되어야 합니다.
 
 **1. Brew 설치**
 터미널 실해 후 아래의 명렁어 입력
