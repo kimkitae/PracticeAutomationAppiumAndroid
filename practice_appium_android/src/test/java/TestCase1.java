@@ -34,7 +34,7 @@ public class TestCase1 {
 
     @Test
     public void TestCse1() {
-        WebElement textView = driver.findElementById("com.example.practiceautomationappiumwithandroid:id/textView1");
+        WebElement textView = driver.findElementById("com.example.practiceautomationappiumwithandroid:id/btn1");
         WebElement button1 = driver.findElementById("com.example.practiceautomationappiumwithandroid:id/button1");
         WebElement button2 = driver.findElementById("com.example.practiceautomationappiumwithandroid:id/button2");
 
@@ -42,4 +42,34 @@ public class TestCase1 {
         button1.click();
         button2.click();
     }
+
+
+    @Test
+    public void Testcase1() {
+          Assert.assertTrue(driver.findElementById("com.example.practiceautomationappiumwithandroid:id/title").getText().equals("Hello World"));
+    }
+
+    @Test
+    public void Testcase2() {
+
+        driver.findElementById("com.example.practiceautomationappiumwithandroid:id/btn1").click();
+        Assert.assertEquals("1번 버튼의 결과", driver.findElementById("com.example.practiceautomationappiumwithandroid:id/title").getText());
+    }
+
+    @Test
+    public void Testcase37() {
+
+        driver.findElementById("com.example.practiceautomationappiumwithandroid:id/edt").sendKeys("22");
+        driver.findElementById("com.example.practiceautomationappiumwithandroid:id/btn2").click();
+        driver.findElementById("com.example.practiceautomationappiumwithandroid:id/title").getText();
+        Assert.assertEquals("22", driver.findElementById("com.example.practiceautomationappiumwithandroid:id/title").getText());
+    }
+
+
+
+
+
+
+
+
 }
